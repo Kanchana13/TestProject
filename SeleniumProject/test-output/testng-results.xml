@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-04T10:50:39 IST" name="Suite" finished-at="2021-05-04T10:51:42 IST" duration-ms="63434">
+  <suite name="Suite" duration-ms="43012" started-at="2021-05-05T17:41:14 IST" finished-at="2021-05-05T17:41:57 IST">
     <groups>
     </groups>
-    <test started-at="2021-05-04T10:50:39 IST" name="Test" finished-at="2021-05-04T10:51:42 IST" duration-ms="63434">
+    <test name="Test" duration-ms="43012" started-at="2021-05-05T17:41:14 IST" finished-at="2021-05-05T17:41:57 IST">
       <class name="com.qaa.testscripts.CS6">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:50:39 IST" name="setup" finished-at="2021-05-04T10:50:46 IST" duration-ms="7597" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="setup" is-config="true" duration-ms="6077" started-at="2021-05-05T17:41:14 IST" finished-at="2021-05-05T17:41:20 IST">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:50:47 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:50:52 IST" duration-ms="4349" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="4617" started-at="2021-05-05T17:41:22 IST" data-provider="getData" finished-at="2021-05-05T17:41:27 IST">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:50:52 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:50:56 IST" duration-ms="4395" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="4500" started-at="2021-05-05T17:41:27 IST" data-provider="getData" finished-at="2021-05-05T17:41:31 IST">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:50:56 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:00 IST" duration-ms="4277" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="4921" started-at="2021-05-05T17:41:31 IST" data-provider="getData" finished-at="2021-05-05T17:41:36 IST">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:00 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:05 IST" duration-ms="4516" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="4731" started-at="2021-05-05T17:41:36 IST" data-provider="getData" finished-at="2021-05-05T17:41:41 IST">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:05 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:10 IST" duration-ms="4934" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="5450" started-at="2021-05-05T17:41:41 IST" data-provider="getData" finished-at="2021-05-05T17:41:46 IST">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:10 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:15 IST" duration-ms="4637" status="PASS">
+        <test-method status="PASS" signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="searchItemsInAmazon" duration-ms="5741" started-at="2021-05-05T17:41:46 IST" data-provider="getData" finished-at="2021-05-05T17:41:52 IST">
           <params>
             <param index="0">
               <value>
@@ -119,63 +119,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:15 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:21 IST" duration-ms="6368" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Furniture]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[WoodenTable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:21 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:28 IST" duration-ms="7307" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Furniture]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bed]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:28 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-04T10:51:34 IST" duration-ms="6049" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Furniture]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sofa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="amazonend()[pri:1, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:34 IST" name="amazonend" finished-at="2021-05-04T10:51:37 IST" duration-ms="2872" status="PASS">
+        <test-method status="PASS" signature="amazonend()[pri:1, instance:com.qaa.testscripts.CS6@305fd85d]" name="amazonend" duration-ms="3873" started-at="2021-05-05T17:41:52 IST" finished-at="2021-05-05T17:41:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonend -->
-        <test-method signature="amazon()[pri:2, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:37 IST" name="amazon" finished-at="2021-05-04T10:51:37 IST" duration-ms="2" status="PASS">
+        <test-method status="PASS" signature="amazon()[pri:2, instance:com.qaa.testscripts.CS6@305fd85d]" name="amazon" duration-ms="1" started-at="2021-05-05T17:41:56 IST" finished-at="2021-05-05T17:41:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaa.testscripts.CS6@120f102b]" started-at="2021-05-04T10:51:37 IST" name="tearDown" finished-at="2021-05-04T10:51:42 IST" duration-ms="4827" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qaa.testscripts.CS6@305fd85d]" name="tearDown" is-config="true" duration-ms="981" started-at="2021-05-05T17:41:56 IST" finished-at="2021-05-05T17:41:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

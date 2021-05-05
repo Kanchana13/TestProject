@@ -44,11 +44,12 @@ public class CS6 extends TestBase
 	@DataProvider
 	public String[][] getData() throws IOException
 	{
-		String xlPath="C:\\Sellenium\\SeleniumProject\\src\\test\\java\\com\\qaa\\testdata\\TestData.xlsx";
+		String xlPath="C:\\Users\\kanchana\\git\\TestProject\\SeleniumProject\\src\\test\\java\\com\\qaa\\testdata\\TestData.xlsx";
 		String xlSheet="Sheet1";
 		
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount=ExcelUtility.getCellCount(xlPath, xlSheet, rowCount);
+		
 		String[][] data=new String[rowCount][cellCount];
 		for(int i=1;i<=rowCount;i++)
 		{
